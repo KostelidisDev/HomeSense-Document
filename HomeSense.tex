@@ -159,9 +159,19 @@
 	\item Ο χρήστης βλέπει μέσω του HomeSenseUI, τα δεδομένα σε μορφή γραφημάτων.
 \end{enumerate}
 
-\section{Λιστα υλικών}
+\section{Λίστα υλικών}
 
 Η σχεδίαση του συστήματος βασίστηκε σε συγκεκριμένα υλικά που επιλέχθηκαν με κριτήριο την απόδοση, το κόστος και την ευκολία υλοποίησης. Παρακάτω παρουσιάζονται αναλυτικά τα υλικά.
+
+\subsection{Carbon Film Resistor Kit}
+
+\begin{figure}[H]
+	\centerline{\includegraphics[width=0.2\textwidth]{assets/resistorkit}}
+	\caption{Εικόνα του Carbon Film Resistor Kit .}
+	\label{Εικόνα του Carbon Film Resistor Kit .}
+\end{figure}
+
+Το Carbon Film Resistor Kit, είναι ένα πακέτο με αντιστάσεις διαφόρων τιμών. Κάθε Kit έχει 250 αντιστάσεις. Το κόστος του είναι περίπου €3 ανά kit. \cite{resistorkit}
 
 \subsection{ESP8266 (NodeMCU)}
 
@@ -251,7 +261,59 @@
 	\label{Εικόνα του Raspberry Pi 3B+}
 \end{figure}
 
-Το Raspberry Pi 3B+ χρησιμοποιείται ως ο κεντρικός κόμβος του συστήματος. Διαθέτει επεξεργαστή quad-core ARM Cortex-A53 στα 1.2 GHz, 1 GB RAM, ενσωματωμένο WiFi (802.11) και Ethernet. Το κόστος του ανέρχεται περίπου στα €50. \cite{rpi3b} Επιλέχθηκε καθώς είναι μέρος της εκφώνησης της εργασίας.
+Το Raspberry Pi 3B+ χρησιμοποιείται ως ο κεντρικός κόμβος του συστήματος. Διαθέτει επεξεργαστή quad-core ARM Cortex-A53 στα 1.2 GHz, 1 GB RAM, ενσωματωμένο WiFi (802.11) και Ethernet. Το κόστος του ανέρχεται περίπου στα €50 ανά μονάδα. \cite{rpi3b} Επιλέχθηκε καθώς είναι μέρος της εκφώνησης της εργασίας.
+
+\subsection{PCBs των συσκευών}
+
+\begin{figure}[H]
+	\centerline{\includegraphics[width=0.2\textwidth]{assets/pcbs}}
+	\caption{Εικόνα των PCBs.}
+	\label{Εικόνα των PCBs}
+\end{figure}
+
+Καθώς σχεδιάστηκαν PCBs για τις συσκευές (GasSense, LightSense, TempSense), έγινε η αγορά των πλακετών αυτών από εργοστάσιο παραγωγής PCB. Συγκεκριμένα, οι πλακέτες αυτές αγοράστηκαν από το JLCPCB. Το κόστος είναι περίπου €0.50 ανά μονάδα, με ελάχιστη ποσότητα τις 5 πλακέτες ανά σχέδιο.
+
+\section{Λίστα εργαλείων}
+
+\subsection{CLion}
+
+\begin{figure}[H]
+	\centerline{\includegraphics[width=0.2\textwidth]{assets/clion}}
+	\caption{Εικόνα του CLion.}
+	\label{Εικόνα του CLion}
+\end{figure}
+
+Το CLion είναι ένα IDE (Integrated Development Environment) της JetBrains που χρησιμοποιείται κυρίως για C και C++ προγραμματισμό. Μαζί με το Plugin "PlatformIO for CLion", έγινε ο προγραμματισμός των συσκευών (GasSense, LightSense, TempSense). Το λογισμικό αυτό είναι δωρεάν για φοιτητές, μέσω του προγράμματος JetBrains Education.
+
+\subsection{Uni-T UT131Β}
+
+\begin{figure}[H]
+	\centerline{\includegraphics[width=0.2\textwidth]{assets/multimeter}}
+	\caption{Εικόνα του Uni-T UT131Β.}
+	\label{Εικόνα του Uni-T UT131Β}
+\end{figure}
+
+Το Uni-T UT131B είναι ένα ψηφιακό πολύμετρο, ιδανικό για ηλεκτρονικές και ηλεκτρολογικές μετρήσεις. Προσφέρει ακρίβεια και ευκολία χρήσης, καθιστώντας το κατάλληλο τόσο για επαγγελματίες όσο και για ερασιτέχνες. Το κόστος είναι περίπου €13 ανά μονάδα.\cite{miltimeter}
+
+\subsection{Andowl Q-GJ5}
+
+\begin{figure}[H]
+	\centerline{\includegraphics[width=0.2\textwidth]{assets/solderstation}}
+	\caption{Εικόνα της Andowl Q-GJ5.}
+	\label{Εικόνα της Andowl Q-GJ5}
+\end{figure}
+
+Η Andowl Q-GJ5 είναι μια βάση με μεγεθυντικό φακό και υποστήριξη για κολλητήρι, ιδανική για εργασίες ηλεκτρονικής. Διαθέτει ρυθμιζόμενο βραχίονα με κροκοδειλάκια που εξασφαλίζουν σταθερό κράτημα των εξαρτημάτων. Ο ενσωματωμένος φωτισμός αποτελείται από πέντε λαμπάκια LED τοποθετημένα σε εύκαμπτο μεταλλικό σωλήνα, παρέχοντας εξαιρετική ορατότητα ακόμα και σε χαμηλό φωτισμό. Το κόστος είναι περίπου €10 ανά μονάδα. \cite{solderstation}
+
+\subsection{Κολλητήρι Ρεύματος 60W}
+
+\begin{figure}[H]
+	\centerline{\includegraphics[width=0.2\textwidth]{assets/solderingkit}}
+	\caption{Εικόνα του Κολλητήρι Ρεύματος 60W.}
+	\label{Εικόνα του Κολλητήρι Ρεύματος 60W.}
+\end{figure}
+
+Κολλητήρι ρεύματος με ισχύ 60 Watt και μέγιστη ρυθμιζόμενη θερμοκρασία λειτουργίας 450 °C. Το κόστος είναι περίπου €19 ανά μονάδα. \cite{solderingkit}
 
 \section{Κυκλώματα}
 \subsection{GasSense}
@@ -346,6 +408,7 @@
 Αυτό το έργο πραγματοποιήθηκε στο πλαίσιο του μαθήματος Ρ101: Ενσωματωμένα Συστήματα, στο μεταπτυχιακό πρόγραμμα στη Ρομποτική, που προσφέρεται από το Τμήμα Μηχανικών Πληροφορικής και Τηλεπικοινωνιών του Διεθνούς Πανεπιστημίου της Ελλάδος.
 
 \begin{thebibliography}{00}
+	\bibitem{resistorkit} “Carbon Film Αντιστάσεις Kit 0.25W (1τμχ) | Skroutz.gr,” www.skroutz.gr, 2025. https://www.skroutz.gr/s/28677532/Carbon-Film-Antistaseis-Kit-0-25W-1tmch.html (accessed Jan. 31, 2025).
 	\bibitem{esp8266} “NodeMCU - Lua based ESP8266,” grobotronics.com, 2025. https://grobotronics.com/nodemcu-lua-based-esp8266.html (accessed Jan. 31, 2025).
 	\bibitem{adc} “NodeMCU ADC with Arduino IDE” www.electronicwings.com, 2025. https://www.electronicwings.com/nodemcu/nodemcu-adc-with-arduino-ide (accessed Jan. 31, 2025).
 	\bibitem{ds18b20-1wire} “ESP8266 DS18B20 Temperature Sensor with Arduino IDE (Single, Multiple, Web Server),” randomnerdtutorials.com, 2025. https://randomnerdtutorials.com/esp8266-ds18b20-temperature-sensor-web-server-with-arduino-ide/ (accessed Jan. 31, 2025).
@@ -357,6 +420,9 @@
 	\bibitem{bcv9} "Battery Clip 9V - Wires," grobotronics.com, 2025. https://grobotronics.com/battery-clip-9v-wires.html (accessed Jan. 31, 2025).
 	\bibitem{bv9} "Battery 9V Varta Longlife Power - 550mAh," grobotronics.com, 2025. https://grobotronics.com/battery-9v-varta-longlife-550mah.html (accessed Jan. 31, 2025).
 	\bibitem{rpi3b} "Raspberry Pi 3 Model B+ | Skroutz.gr," www.skroutz.gr, 2025. https://www.skroutz.gr/s/14311305/Raspberry-Pi-3-Model-B.html (accessed Jan. 31, 2025).
+	\bibitem{miltimeter} "Uni-T UT131Β Ψηφιακό Πολύμετρο με Buzzer με Μέτρηση AC / DC / Αντίστασης | Skroutz.gr," www.skroutz.gr, 2025. https://www.skroutz.gr/s/14355908/Uni-T-UT131V-PSifiako-Polymetro-me-Buzzer-me-Metrisi-AC-DC-Antistasis.html (accessed Jan. 31, 2025).
+	\bibitem{solderstation} "Andowl Q-GJ5 Βάση με Μεγενθυτικό Φακό Κολλητηριού | Skroutz.gr," www.skroutz.gr, 2025. https://www.skroutz.gr/s/30840110/Andowl-Q-GJ5-Vasi-me-Megenthytiko-Fako-Kollitiriou.html (accessed Jan. 31, 2025).
+	\bibitem{solderingkit} "501610 Κολλητήρι Ρεύματος 60W με Ρύθμιση Θερμοκρασίας με Θήκη | Skroutz.gr" www.skroutz.gr, 2025. https://www.skroutz.gr/s/20534158/501610-Kollitiri-Reymatos-60W-me-Rythmisi-THermokrasias-me-THiki.html (accessed Jan. 31, 2025).
 	\bibitem{mq6connect} "AirQualityMQ135 \ Learning \ Wiring," wiring.org.co, 2025. https://wiring.org.co/learning/basics/airqualitymq135.html (accessed Jan. 31, 2025).
 	\bibitem{ldrconnect} "NodeMCU With LDR : 4 Steps (with Pictures) - Instructables" www.instructables.com, 2025. https://www.instructables.com/NodeMCU-With-LDR/ (accessed Jan. 31, 2025).
 	\bibitem{ds18b20connect} "DS18B20: Programmable Resolution 1-Wire Digital Thermometer Data Sheet (Rev.6)" www.analog.com, 2025. https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf (accessed Jan. 31, 2025).
